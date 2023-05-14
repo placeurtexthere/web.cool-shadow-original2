@@ -1,0 +1,63 @@
+:root {
+    --main-text-bg-color-1: #202020; /**#202020*/
+    --border-color-1: #000000; /**COOL COLOR #149b73*/
+    --inner-box-shadow: #000000; /**COOL COLOR #00ffaa*/
+}
+
+
+* {
+    background: #181818; /**#181818*/
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+}
+
+
+p.main-text {
+    width: calc(100vw - 70px);
+    background: var(--main-text-bg-color-1);
+    color: white;
+    padding: 5px/*TOP*/ 8px/*RIGHT*/ 8px/*BOTTOM*/ 8px/*LEFT*/;
+    border-radius: 8px;
+    border: 2px solid var(--border-color-1);
+    margin: 10px/*TOP*/ 10px/*RIGHT*/ 10px/*BOTTOM*/ 10px/*LEFT*/;
+    text-align: left;
+    box-shadow: 2.5px 2.5px 0px 0px var(--inner-box-shadow);
+    display: block;
+}
+
+
+div.text-fields {
+    /*background: #FFFFFF;*/
+    width: calc(100vw - 70px);
+    height: 100vh;
+    padding: 5px;
+}
+
+
+button.btn {
+    /*width: calc(100vw - 70px);*/
+    background: var(--main-text-bg-color-1);
+    color: white;
+    padding: 5px/*TOP*/ 8px/*RIGHT*/ 8px/*BOTTOM*/ 8px/*LEFT*/;
+    border-radius: 8px;
+    border: 2px solid var(--border-color-1);
+    margin: 10px/*TOP*/ 10px/*RIGHT*/ 10px/*BOTTOM*/ 10px/*LEFT*/;
+    text-align: left;
+    box-shadow: 2.5px 2.5px 0px 0px var(--inner-box-shadow);
+    display: flex;
+}
+
+
+button.btn:active {
+    /*width: calc(100vw - 70px);*/
+    background: var(--main-text-bg-color-1);
+    color: white;
+    padding: 5px/*TOP*/ 8px/*RIGHT*/ 8px/*BOTTOM*/ 8px/*LEFT*/;
+    border-radius: 8px;
+    border: 2px solid var(--border-color-1);
+    margin: 12.5px/*TOP*/ 10px/*RIGHT*/ 10px/*BOTTOM*/ 12.5px/*LEFT*/;
+    text-align: left;
+    box-shadow: 1px 1px 0px 0px var(--inner-box-shadow);
+    display: flex;
+}
